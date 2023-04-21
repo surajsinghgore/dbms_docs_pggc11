@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+body{
+background-color:rgb(227, 227, 227);
+}
+.container{
+background-color: #fff;
+width: 60%;
+margin-left: 20%;
+height: 90vh;
+margin-top: 5vh;
+position: relative;
+border-radius: 20px;
+}
+
+
+.container .searchSection{
+width: 100%;
+padding-top: 3%;
+position: relative;
+}
+
+
+.container .searchSection #searchIcon{
+position: absolute;
+top: 60%;
+width: 1.7vw;
+left: 7%;
+}
+.container .searchSection #search{
+width: 90%;
+font-size: 1.3vw;
+margin-left: 5%;
+margin-top: 1.7%;
+padding: 1% 5.9%;
+background-color: #f3f3f3;
+border: 1px solid #f3f3f3;;
+outline: none;
+border-radius: 60px;
+}
+.container h3{
+margin-top: 3%;
+margin-left: 6%;
+color: rgb(47, 47, 47);
+}
+
+
+
+.container .sugestion{
+list-style: none;
+display: block;
+margin-top: 2%;
+height: 310px;
+overflow: hidden;
+}
+
+.container .sugestion a{
+position: relative;
+display: block;
+width: 95%;
+margin-top: 1%;
+background-color: #087ea4;
+text-decoration: none;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+padding: 1% 0%;
+}
+.container .sugestion a span{
+position: absolute;
+top: 2;
+font-size: 2.2vw;
+color: white;
+left: 2%;
+}
+
+.container .sugestion a h4{
+color: white;
+font-size: 1.2vw;
+margin-left: 6%;
+}
+.container .sugestion a p{
+color: white;
+font-size: 1vw;
+margin-left: 6%;
+}
+
+#uturn{
+position: absolute;
+top: 22%;
+right: 2%;
+}
+
+.close{
+position: absolute;
+top: 4%;
+right: -5.8%;
+text-align: center;
+cursor: pointer;
+color: rgb(255, 255, 255);
+background-color: #087ea4;
+
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding: 1% 2%;
+font-size: 2vw;
+}
+.close:hover{
+background-color: #36b6e0;
+
+
+}
+#learn{
+display: none;
+}
